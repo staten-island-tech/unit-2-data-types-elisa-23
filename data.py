@@ -20,6 +20,29 @@ def is_tenured(status):
     else:
         print("they are not tenured") """
 
+x = int(input("How much was your bill? Answer with Arabic numerals only."))
+
+y = input("How was your service? Answer in all lowercase.")
+
+z = add(x,tip)
+
+def tipcalc():
+    if (y == "good"):
+        tip1 = x*0.18
+        tip = tip1
+    elif (y == "excellent"):
+        tip2 = x*0.22
+        tip = tip2
+    elif (y == "bad"):
+        tip3 = x*0.1
+        tip = tip3
+    elif (y == "horrible"):
+        tip4 = x*0.05
+        tip = tip4
+
+
+    
+
 """ x = 3
 y = float(3)
 print(x,y) """
@@ -37,5 +60,3 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z) """
-
-def input(_type a random sentence: )
