@@ -20,29 +20,21 @@ def is_tenured(status):
     else:
         print("they are not tenured") """
 
-x = int(input("How much was your bill? Answer with Arabic numerals only."))
-
-y = input("How was your service? Answer in all lowercase.")
-
-z = add(x,tip)
-
-def tipcalc():
+""" def tipcalc():
+    w = float(input("How much was your bill?"))
+    y = input("How was your service?")
+    tip = 0
     if (y == "good"):
-        tip1 = x*0.18
-        tip = tip1
+        tip = int(w*0.18)
     elif (y == "excellent"):
-        tip2 = x*0.22
-        tip = tip2
+        tip = int(w*0.22)
     elif (y == "bad"):
-        tip3 = x*0.1
-        tip = tip3
+        tip = int(w*0.1)
     elif (y == "horrible"):
-        tip4 = x*0.05
-        tip = tip4
-
-
+        tip = int(w*0.05)
+    print(w+tip)
+tipcalc() """
     
-
 """ x = 3
 y = float(3)
 print(x,y) """
@@ -60,3 +52,33 @@ y= x.split( )
 z = y[0]
 print(y)
 print(z) """
+
+""" def wordcounter():
+    x = input("Enter a Statement: ")
+    y = x.split( )
+    words = 0
+    for i in y:
+        words += 1
+    print(words)
+wordcounter() """
+
+""" day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")
+
+x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+#this code would print the word "warm"
+
+def evenorodd():
+    number = int("Type your number: ")
