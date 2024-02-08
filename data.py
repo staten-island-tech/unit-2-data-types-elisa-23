@@ -19,21 +19,6 @@ def is_tenured(status):
         print("They have tenured")
     else:
         print("they are not tenured") """
-
-""" def tipcalc():
-    w = float(input("How much was your bill?"))
-    y = input("How was your service?")
-    tip = 0
-    if (y == "good"):
-        tip = int(w*0.18)
-    elif (y == "excellent"):
-        tip = int(w*0.22)
-    elif (y == "bad"):
-        tip = int(w*0.1)
-    elif (y == "horrible"):
-        tip = int(w*0.05)
-    print(w+tip)
-tipcalc() """
     
 """ x = 3
 y = float(3)
@@ -53,6 +38,7 @@ z = y[0]
 print(y)
 print(z) """
 
+#Word Counter
 """ def wordcounter():
     x = input("Enter a Statement: ")
     y = x.split( )
@@ -80,5 +66,30 @@ else:
     print('cold') """
 #this code would print the word "warm"
 
-def evenorodd():
-    number = int("Type your number: ")
+#Determines if the number is even or odd
+""" def evenorodd():
+    number = float(input("Enter your number:"))
+    x = number % 2
+    if x == 0:
+        print('the number is even')
+    elif x == 1:
+        print('the number is odd')
+evenorodd() """
+
+""" factor = [1]
+def factors():
+    number = int(input("Enter your number:"))
+    factor.append(number)
+    y = 1
+    for i in range(number):
+        y += 1
+        if number % y == 0:
+            factor.append(y)
+            factor.append(number/y)
+        else:
+            y += 1
+            number % y
+    print(factor)
+factors() """
+        
+        
