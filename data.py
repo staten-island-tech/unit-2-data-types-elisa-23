@@ -91,25 +91,12 @@ def factors():
             number % y
     print(f"Factor:{factor}") """
 
-factor1 = [1]
-factor2 = []
-def gcf():
-    number1 = int(input("Enter your first number: "))
-    number2 = int(input("Enter your second number: "))
-    y = 1
-    for i in range(number1):
-        y += 1
-        if number1 % y == 0:
-            if number2/y == 0:
-                if y>factor2[1]:
-                    factor2 = []
-                    factor2.append(y)
-            if number2/(number1/y) == 0:
-                if (number1/y)>factor2[1]:
-                    factor2 = []
-                    factor2.append(number1/y)
-        else:
-            y += 1
-            number1 % y
-    print(f"GCF;{factor2[1]}")
-gcf()
+""" def gcf():
+    number1 = float(input("Enter your first number: "))
+    number2 = float(input("Enter your second number: "))
+    while number2 != 0:
+        number3 = number1 % number2
+        number1 = number2
+        number2 = number3
+    print(f"The GCF is {int(number1)}")
+gcf() """
