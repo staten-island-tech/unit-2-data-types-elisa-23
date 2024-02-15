@@ -91,7 +91,8 @@ def factors():
             number % y
     print(f"Factor:{factor}") """
 
-""" def gcf():
+
+def gcf():
     number1 = float(input("Enter your first number: "))
     number2 = float(input("Enter your second number: "))
     while number2 != 0:
@@ -99,4 +100,4 @@ def factors():
         number1 = number2
         number2 = number3
     print(f"The GCF is {int(number1)}")
-gcf() """
+gcf()
